@@ -1,0 +1,31 @@
+[0m[[0minfo[0m] [0m[32mDeviceSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mDevice[0m[0m
+[0m[[0minfo[0m] [0m[32m- should reply with empty reading if no temperature is known[0m[0m
+[0m[[0minfo[0m] [0m[32mDevice[0m[0m
+[0m[[0minfo[0m] [0m[32m- should reply with latest temperature reading[0m[0m
+[0m[[0minfo[0m] [0m[32mDevice[0m[0m
+[0m[[0minfo[0m] [0m[32m- should reply to registration requests[0m[0m
+[0m[[0minfo[0m] [0m[32mDevice[0m[0m
+[0m[[0minfo[0m] [0m[32m- should ignore wrong registration requests[0m[0m
+[0m[[0minfo[0m] [0m[32mDeviceGroup[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be able to register a device actor[0m[0m
+[0m[[0minfo[0m] [0m[32mDeviceGroup[0m[0m
+[0m[[0minfo[0m] [0m[32m- should ignore requests for wrong groupId[0m[0m
+[0m[[0minfo[0m] [0m[32mDeviceGroup[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return same actor for same deviceId[0m[0m
+[0m[[0minfo[0m] [0m[32mDeviceGroup[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be able to list active devices[0m[0m
+[0m[[0minfo[0m] [0m[32mDeviceGroup[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be able to list active devices after one shuts down[0m[0m
+[0m[[0minfo[0m] [0m[32mDeviceGroupQuery[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return temperature value for working devices[0m[0m
+[0m[[0minfo[0m] [0m[32mDeviceGroupQuery[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return TemperatureNotAvailable for devices with no readings[0m[0m
+[0m[[0minfo[0m] [0m[32mDeviceGroupQuery[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return DeviceNotAvailable if device stops before answering[0m[0m
+[0m[[0minfo[0m] [0m[32mDeviceGroupQuery[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return temperature reading even if device stops after answering[0m[0m
+[0m[[0minfo[0m] [0m[32mDeviceGroupQuery[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return DeviceTimedOut if device does not answer in time[0m[0m
+[0m[[0minfo[0m] [0m[32mDeviceGroup[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be able to collect temperatures from all active devices[0m[0m
