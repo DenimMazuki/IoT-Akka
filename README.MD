@@ -1,0 +1,1 @@
+An application used to practice modeling Akka's Actor. Concepts learned from application includes observing the lifecycles of Actors, hierarchy between Actors, as well as applying TDD to test Actors in Scala.
